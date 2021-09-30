@@ -1,0 +1,3 @@
+[package]
+description = Module adds worker_id to all Zeek logs
+script_dir = scripts
