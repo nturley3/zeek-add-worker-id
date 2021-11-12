@@ -18,6 +18,10 @@ If you need to upgrade the package::
 	zkg refresh
 	zkg upgrade nturley3/zeek-add-worker-id
 
+## Configuration
+
+Nothing special required. Module will automatically add worker_id to requested logs.
+
 ## Outputs
 This package adds the following field to various log types:
 | Fieldname | Description |
@@ -26,9 +30,9 @@ This package adds the following field to various log types:
 
 Usage
 -----
+It can be difficult for Zeek administrators to determine which worker processed specific packets, especially in organizations with a large Zeek instance. Adding the worker ID helps to troubleshoot.
 
-Nothing special required. Module will automatically add worker_id to requested logs.
-No notices are generated.
+Tags: Administration
 
 About
 -----
