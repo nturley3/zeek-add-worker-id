@@ -20,7 +20,7 @@ If you need to upgrade the package::
 
 ## Outputs
 This package adds the following field to various log types:
-|  |  |
+| Fieldname | Description |
 | -- | -- |
 | worker_id | The worker ID of the Zeek process that generated the log. |
 
