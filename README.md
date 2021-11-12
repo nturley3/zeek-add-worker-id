@@ -18,6 +18,12 @@ If you need to upgrade the package::
 	zkg refresh
 	zkg upgrade nturley3/zeek-add-worker-id
 
+## Outputs
+This package adds the following field to various log types:
+|  |  |
+| -- | -- |
+| worker_id | The worker ID of the Zeek process that generated the log. |
+
 Usage
 -----
 
