@@ -3,10 +3,9 @@ Add Worker ID to Zeek Logs
 
 Zeek module which adds the worker node ID (worker_id) to all requested Zeek logs.
 
-NOTE: This is a legacy repository and not tested on Zeek clusters 4.0+.
-
 Installation/Upgrade
 ------------
+This script was tested using Zeek 3.0.11 and 4.0.3.
 
 This is easiest to install through the Zeek package manager::
 
